@@ -57,10 +57,10 @@ function draw() {
 
   playerArcher.display();
 
-
   if(keyCode === 32){
-    arrow.shoot(playerArcher.body.angle);
-}
+    playerArrows.shoot(playerArcher.body.angle);
+
+
 
   // Title
   fill("#FFFF");
@@ -72,7 +72,6 @@ function draw() {
 
 
 
-  if(keyCode === 32){
-    playerArrows.shoot(playerArcher.body.angle);
+
 }
 
